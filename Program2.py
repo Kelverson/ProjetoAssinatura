@@ -51,7 +51,7 @@ if(repost != True):
         print(f"Nome da Conta: {account.DisplayName}")
         #print(f"SMTP Address: {account.SmtpAddress}")
         print("-" * 40)
-        client_id = " "
+        client_id = " teste"
         tenant_id = " "
         #6meses/validade
         client_secret=  linhas[0]
