@@ -51,8 +51,8 @@ if(repost != True):
         print(f"Nome da Conta: {account.DisplayName}")
         #print(f"SMTP Address: {account.SmtpAddress}")
         print("-" * 40)
-        client_id = "16261283-8053-43f4-a791-e14d8a7e41e1"
-        tenant_id = "82f6f560-e518-46b4-bdcd-a09f0834c37e"
+        client_id = " "
+        tenant_id = " "
         #6meses/validade
         client_secret=  linhas[0]
         msal_authority = f"https://login.microsoftonline.com/{tenant_id}"
